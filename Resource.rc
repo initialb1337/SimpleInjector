@@ -1,0 +1,13 @@
+#include "Resource.h"
+
+// Embedded DLL resource
+// Ensure "YimMenuV2.dll" exists in the project directory or provide a valid path.
+IDR_DLL1 RCDATA "C:\\\dev\\YimMenuV2\\\MinSizeRel\\YimMenuV2.dll"
+
+// Custom icon resource
+// Ensure "gta5.ico" is a valid icon file in the project directory.
+IDI_CUSTOM_ICON ICON "gta5.ico"
+
+// For example:
+// IDR_DLL1: This resource embeds a DLL used for injecting functionality.
+// IDI_CUSTOM_ICON: This resource sets a custom icon for the application.
